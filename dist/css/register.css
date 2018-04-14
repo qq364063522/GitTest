@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none;
+  color: #007dff; }
+
+a:hover {
+  color: #4099f6; }
+
+body {
+  background: #ebebeb;
+  font-size: 12px; }
+
+li {
+  list-style: none; }
+
+input {
+  outline: medium; }
+
+::-webkit-input-placeholder {
+  color: #ccc; }
+
+button {
+  outline: medium;
+  cursor: pointer; }
+
+header {
+  margin: 0 10%;
+  height: 67px;
+  overflow: hidden; }
+
+header img {
+  margin: 12px 0 0 4px;
+  float: left; }
+
+header p {
+  font-size: 18px;
+  margin-top: 28px;
+  padding-left: 15px;
+  margin-left: 10px;
+  height: 18px;
+  line-height: 18px;
+  float: left;
+  border-left: 1px solid gray; }
+
+.banner {
+  background: url(../images/register/banner.png) center center no-repeat;
+  width: 1250px;
+  height: 590px;
+  overflow: hidden; }
+
+.register_right {
+  margin: 2% 6% 2% 0;
+  padding: 25px 25px;
+  background: white;
+  float: right;
+  height: 500px;
+  width: 330px;
+  overflow: hidden; }
+
+.register_right input {
+  border: 0;
+  background: white; }
+
+.register_right .ID {
+  margin: 0 55px 0 30px;
+  font-size: 18px; }
+
+.register_right .ID:hover {
+  color: #b40707; }
+
+.register_right .scanCode {
+  margin: 0 30px 0 55px;
+  font-size: 18px; }
+
+.register_right .scanCode:hover {
+  color: #b40707; }
+
+.register_right div {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  color: #ccc; }
+
+.register_right div input {
+  border-bottom: 1px solid darkgray;
+  line-height: 46px;
+  width: 330px; }
+
+.register_right .button {
+  text-align: center;
+  border: none;
+  border-radius: 100px;
+  width: 330px;
+  line-height: 45px;
+  font-size: 16px;
+  color: white;
+  background: #b40707;
+  margin: 15px 0 20px 0; }
+
+.register_right .button:hover {
+  background: #ec0c0c; }
+
+.register_right .theMore {
+  height: 12px;
+  margin-bottom: 15px; }
+
+.register_right .more {
+  float: right; }
+
+.register_right .help {
+  text-align: center; }
+
+.register_right .help a:nth-child(2) {
+  padding-left: 10px;
+  border-left: 1px solid darkgray;
+  margin-left: 10px; }
+
+.theElse {
+  margin-top: 120px;
+  text-align: center;
+  color: #ccc; }
+
+footer {
+  margin-top: 15px; }
+
+footer p {
+  text-align: center;
+  color: #999; }
+
+footer p a {
+  border-left: 1px solid #999;
+  color: #999;
+  padding: 0 15px; }
+
+footer p a:nth-child(1) {
+  border: none; }
+
+footer p a:hover {
+  text-decoration: underline;
+  color: #999; }
+
+.last {
+  margin-top: 12px; }
+
+.iconfont {
+  font-size: 40px;
+  margin: 11px;
+  color: #999; }
+
+.icon-QQ:hover {
+  color: #2f98ea; }
+
+.icon-weixin:hover {
+  color: #21c121; }
+
+.icon-zhifubaorenzheng:hover {
+  color: #2f98ea; }
+
+.theID {
+  display: block; }
+
+.theScanCode div {
+  height: 217px;
+  margin: 65px 0;
+  text-align: center;
+  line-height: 217px;
+  position: relative; }
+
+#img_2 {
+  position: absolute;
+  left: 200px;
+  top: -25px;
+  opacity: 0; }
+
+.theScanCode p {
+  text-align: center; }
+
+#img_1 {
+  z-index: 1; }

@@ -1,0 +1,14 @@
+$(function(){
+	$("#btnNum").click(function(){
+		$("#theEmail").css("display","none")
+		$("#btnEmail").css("background","#ccc")
+		$(this).css("background","#b40707")
+		$("#phoneNum").css("display","block")
+	})
+	$("#btnEmail").click(function(){
+		$("#phoneNum").css("display","none")
+		$("#btnNum").css("background","#ccc")
+		$(this).css("background","#b40707")
+		$("#theEmail").css("display","block")
+	})
+})

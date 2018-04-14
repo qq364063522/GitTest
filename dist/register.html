@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/iconfont.css">
+    <link type = "text/css" rel = "stylesheet" href = "css/register.css">
+    <script src = "js/jquery-1.10.1.min.js"></script>
+    <script src = "js/register.js"></script>
+</head>
+<body>
+    <header>
+        <img src="images/register/huaweiLogo.png" alt="">
+        <p>华为商城</p>
+    </header>
+	    <!--背景图片-->
+	    <div class = "banner">
+	    		<!--登录表单-->
+	        <form class = "register_right" action="">
+				<input id = "ID" class = "ID" type="button" value = "帐号登录" />
+				<input class = "scanCode" type="button" value = "扫码登录" />
+				<li class = "theID">
+					<div>
+						<input type="text" placeholder="手机号/邮件地址" />
+						<input type="password" placeholder="密码" />
+					</div>
+					<input id = "huaweiID" type="checkbox"/>
+					<label for="huaweiID">记住华为账号</label>
+					<a href="http://localhost:8888/index.html"><dd class = "button">登录</dd></a>
+					<p class = "theMore"><a href="" class = "more">更多</a></p>
+					<p class = "help">
+						<a href="http://localhost:8888/login.html">注册账号</a>
+						<a href="">忘记密码？</a>
+					</p>
+					<p class = "theElse">其他登录方式</p>
+					<div style="text-align: center;">
+						<i class="iconfont icon-QQ"></i>
+						<i class="iconfont icon-weixin"></i>
+						<i class="iconfont icon-zhifubaorenzheng"></i>
+					</div>
+				</li>
+				<li class = "theScanCode">
+					<div>
+						<img id = "img_1" src="images/register/qrCode-over-time.png" alt="" />
+						<img id = "img_2" src="images/register/phone.png" alt="" />
+					</div>
+					<span>
+						<p>使用<a href="">华为移动服务APP</a>扫一扫</p>
+						<p>若您使用华为手机，请进入"设置">"华为账号"扫码登录</p>
+					</span>
+				</li>
+	        </form>
+        </div>
+        <footer>
+        	<p>
+        		<a href="">华为账号用户协议</a>
+        		<a href="">关于华为账号与隐私的声明</a>
+        		<a href="">常见问题</a>
+        	</p>
+        	<p class = "last">
+        		Copyright©2011-2018华为技术有限公司 版权所有 保留一切权利 苏B2-20070200号|苏ICP备09062682号-9
+        	</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,118 @@
+.bigBox {
+  width: 1263px; }
+
+#theNone {
+  display: none; }
+
+footer {
+  padding-top: 65px; }
+
+footer ul li:nth-child(1) {
+  overflow: hidden;
+  padding-bottom: 46px; }
+
+footer ul li:nth-child(1) a {
+  float: left;
+  width: 25%; }
+
+footer ul li:nth-child(1) p {
+  float: left;
+  font-size: 16px;
+  text-align: center;
+  color: black; }
+
+footer ul li:nth-child(1) p:nth-child(even) {
+  text-indent: 15px;
+  line-height: 46px; }
+
+footer ul li:nth-child(1) p:nth-child(odd) {
+  width: 46px;
+  height: 46px; }
+
+footer ul li:nth-child(1) a:nth-child(1) p:nth-child(1) {
+  background: url(../images/index/icon-common.png) 0 -151px no-repeat; }
+
+footer ul li:nth-child(1) a:nth-child(2) p:nth-child(1) {
+  background: url(../images/index/icon-common.png) -94px -151px no-repeat; }
+
+footer ul li:nth-child(1) a:nth-child(3) p:nth-child(1) {
+  background: url(../images/index/icon-common.png) -141px -151px no-repeat; }
+
+footer ul li:nth-child(1) a:nth-child(4) p:nth-child(1) {
+  background: url(../images/index/icon-common.png) -47px -151px no-repeat; }
+
+.footerMes {
+  border-top: 1px solid #e8e8e8; }
+
+.footerMes div dd {
+  padding-top: 49px;
+  text-align: center;
+  float: left;
+  width: 13%; }
+
+.footerMes div dd:last-child {
+  width: 22%; }
+
+.footerMes div dd a p {
+  line-height: 24px; }
+
+.footerMes div dd a p:hover {
+  color: #9c0c0c; }
+
+.footerMes div dd:last-child a:nth-child(3) p:nth-child(2) {
+  margin: 15px auto;
+  width: 161px;
+  line-height: 35px;
+  color: #9c0c0c;
+  border: 1px solid #ddd;
+  border-radius: 6px; }
+
+.footerMes div dd:last-child a:nth-child(4) p:nth-child(2) {
+  margin: 10px auto;
+  width: 161px;
+  line-height: 35px;
+  color: #9c0c0c;
+  border: 1px solid #ddd;
+  border-radius: 6px; }
+
+.footerLast {
+  background: #e6e6e6;
+  height: 120px; }
+
+.footerLast p {
+  line-height: 120px;
+  float: left; }
+
+.footerLast span {
+  margin: 30px 0 0 30px;
+  float: left;
+  width: 620px;
+  color: #a4a4a4; }
+
+.footerLast span a:hover {
+  color: #9c0c0c; }
+
+.footerLast li {
+  line-height: 120px;
+  text-indent: 50px; }
+
+.footerLast li img {
+  padding-left: 20px;
+  height: 23px; }
+
+#shoppingIndex {
+  height: 100%;
+  width: 1263px;
+  padding: 50px 10px; }
+
+#shoppingIndex li {
+  line-height: 100px; }
+
+#shoppingIndex .sc_goodsPic img {
+  float: left;
+  height: 100px;
+  width: 100px; }
+
+#shoppingIndex div {
+  padding: 0  50px;
+  float: left; }
